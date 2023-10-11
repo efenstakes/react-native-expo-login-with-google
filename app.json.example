@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "@react-native-google-signin/google-signin"
+    ],
+    "name": "oauth-logins",
+    "slug": "oauth-logins",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "df1f3900-6070-41a0-9784-965c76e782ae"
+      }
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+    }
+  }
+}
